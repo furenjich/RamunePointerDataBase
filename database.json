@@ -1,0 +1,15 @@
+{
+  "DataBase":[
+    {
+      "name":"test",
+      "addr":"00",
+      "offset":"00,0E,EC,EM",
+      "comment":"none"
+    }
+    ,{
+      "name":"loc",
+      "addr":"152",
+      "offset":"0C,25,EE"
+    }
+  ]
+}
