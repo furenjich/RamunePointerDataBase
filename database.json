@@ -1,15 +1,11 @@
 {
   "DataBase":[
     {
-      "name":"test",
-      "addr":"00",
-      "offset":"00,0E,EC,EM",
-      "comment":"none"
-    }
-    ,{
-      "name":"loc",
-      "addr":"152",
-      "offset":"0C,25,EE"
+      "name":"明るさ",
+      "addr":"036542E8",
+      "offset":"20,138,F0",
+      "byte":"float",
+      "comment":"1.0が明るさ100"
     }
   ]
 }
