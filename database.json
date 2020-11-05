@@ -8,12 +8,6 @@
             "comment": "1.0が明るさ100"
         },
         {
-            "name": "バイオーム",
-            "addr": "0365A788",
-            "offset": "28,A0,0,30,230,50",
-            "byte": "2byte"
-        },
-        {
             "name": "World Name",
             "addr": "03694688",
             "offset": "0,100,0,8",
@@ -23,61 +17,87 @@
             "name": "FPS",
             "addr": "036542E8",
             "offset": "F0,778,8,38,8,828,20",
-            "byte": "4byte"
+            "byte": "4byte",
+            "comment":"最大フレームレート。"
         },
         {
             "name": "Rotate",
             "addr": "0365A6D8",
             "offset": "628,100,580,138,0,128,10",
-            "byte": "float"
+            "byte": "float",
+            "comment":"向いている方向。360度式"
         },
         {
             "name": "Gamemode",
             "addr": "036542F8",
             "offset": "50,290,30,0,A0,28,18",
-            "byte": "4byte"
+            "byte": "4byte",
+            "comment":"ゲームモード。設定はできない"
         },
         {
             "name": "Select Hotbar",
             "addr": "036556D0",
             "offset": "10,B70,10,30,1F0,10,A8",
-            "byte": "4byte"
+            "byte": "4byte",
+            "comment":"選択しているホットバー。一番左が0で右が8"
         },
         {
             "name": "Hide Hand",
             "addr": "036542E8",
             "offset": "E8,CE8,20",
-            "byte": "4byte"
+            "byte": "4byte",
+            "comment":"手を非表示にするかの設定"
+            
         },
         {
             "name": "FOV",
             "addr": "036542E8",
             "offset": "F0,120,20",
-            "byte": "float"
+            "byte": "float",
+            "comment":"視野"
+            
         },
         {
             "name": "Sensitivity",
             "addr": "036542E8",
             "offset": "14,0,0,108,C50,20",
-            "byte": "float"
+            "byte": "float",
+            "comment":"感度"
         },
         {
             "name": "Server",
             "addr": "03694688",
             "offset": "0,370,1E8,0,8",
-            "byte": "string"
+            "byte": "string",
+            "comment":"サーバーIP"
         },
         {
             "name": "ServerPort",
             "addr": "03694688",
             "offset": "390,918,18,4F0,1F8,8,8",
-            "byte": "4byte"
+            "byte": "4byte",
+            "comment":"サーバーポート"
         },
         {
             "name": "スニーク",
             "addr": "0365A6D8",
             "offset": "48,E8,0,128,10",
-            "byte": "2byte"
+            "byte": "2byte",
+            "comment":"スニーク状態。スニーク状態が257"
+        },
+        {
+            "name": "三人称視点",
+            "addr": "0365A788",
+            "offset": "F0,20,C0",
+            "byte": "2byte",
+            "comment":"三人称視点。"
+        },
+        {
+            "name": "バイオーム",
+            "addr": "0365A788",
+            "offset": "50,230,30,0,A0,28",
+            "byte": "4byte",
+            "comment":"バイオーム。バイオームid"
         }
     ]
 }
