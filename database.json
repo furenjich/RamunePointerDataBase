@@ -1,18 +1,83 @@
 {
-  "DataBase":[
-    {
-      "name":"明るさ",
-      "addr":"036542E8",
-      "offset":"20,138,F0",
-      "byte":"float",
-      "comment":"1.0が明るさ100"
-    },
-     {
-      "name":"バイオーム",
-      "addr":"0365A788",
-      "offset":"28,A0,0,30,230,50",
-      "byte":"2byte"
-    }
-  ],
-  
+    "DataBase": [
+        {
+            "name": "明るさ",
+            "addr": "036542E8",
+            "offset": "20,138,F0",
+            "byte": "float",
+            "comment": "1.0が明るさ100"
+        },
+        {
+            "name": "バイオーム",
+            "addr": "0365A788",
+            "offset": "28,A0,0,30,230,50",
+            "byte": "2byte"
+        },
+        {
+            "name": "World Name",
+            "addr": "03694688",
+            "offset": "0,100,0,8",
+            "byte": "string"
+        },
+        {
+            "name": "FPS",
+            "addr": "036542E8",
+            "offset": "F0,778,8,38,8,828,20",
+            "byte": "4byte"
+        },
+        {
+            "name": "Rotate",
+            "addr": "0365A6D8",
+            "offset": "628,100,580,138,0,128,10",
+            "byte": "float"
+        },
+        {
+            "name": "Gamemode",
+            "addr": "036542F8",
+            "offset": "50,290,30,0,A0,28,18",
+            "byte": "4byte"
+        },
+        {
+            "name": "Select Hotbar",
+            "addr": "036556D0",
+            "offset": "10,B70,10,30,1F0,10,A8",
+            "byte": "4byte"
+        },
+        {
+            "name": "Hide Hand",
+            "addr": "036542E8",
+            "offset": "E8,CE8,20",
+            "byte": "4byte"
+        },
+        {
+            "name": "FOV",
+            "addr": "036542E8",
+            "offset": "F0,120,20",
+            "byte": "float"
+        },
+        {
+            "name": "Sensitivity",
+            "addr": "036542E8",
+            "offset": "14,0,0,108,C50,20",
+            "byte": "float"
+        },
+        {
+            "name": "Server",
+            "addr": "03694688",
+            "offset": "0,370,1E8,0,8",
+            "byte": "string"
+        },
+        {
+            "name": "ServerPort",
+            "addr": "03694688",
+            "offset": "390,918,18,4F0,1F8,8,8",
+            "byte": "4byte"
+        },
+        {
+            "name": "スニーク",
+            "addr": "0x0365A6D8",
+            "offset": "48,E8,0,128,10",
+            "byte": "2byte"
+        }
+    ]
 }
